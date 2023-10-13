@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Luis Andrade Portafolio</h1>    
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="container" id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Escribe una breve introducción sobre ti y tus habilidades.</p>
+    </div>
+
+    <div class="container" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del primer proyecto.</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del segundo proyecto.</p>
+        </div>
+        <!-- Agrega más proyectos según sea necesario -->
+    </div>
+
+    <div class="container" id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en [tu correo electrónico] o a través de [tus redes sociales].</p>
+    </div>
+
+    <footer>
+        &copy; 2023 Tu Nombre
+    </footer>
 </body>
 </html>
