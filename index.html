@@ -16,6 +16,7 @@
             color: #fff;
             padding: 20px;
             text-align: center;
+            position: relative;
         }
 
         h1 {
@@ -60,43 +61,53 @@
             padding: 10px;
             text-align: center;
         }
+
+        .profile-image {
+            position: absolute;
+            top: 20px; /* Ajusta la posición vertical según sea necesario */
+            right: 20px; /* Ajusta la posición horizontal según sea necesario */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Mi Portafolio</h1>
+        <a href="foto.jpg" class="profile-image" target="_blank"><img src="foto.jpg" alt="Mi Foto"></a>
+        <h1>Luis Felipe Andrade</h1>
         <nav>
             <a href="#sobre-mi">Sobre Mí</a>
-            <a href="#proyectos">Proyectos</a>
+            <a href="#proyectos">Trabajos</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
     <div class="container" id="sobre-mi">
         <h2>Sobre Mí</h2>
-        <p>Escribe una breve introducción sobre ti y tus habilidades.</p>
+        <p>Hola mi nombre es Luis Felipe soy estudiante de Sistemas en 
+            la Universidad Adventista de Cochabamba. Actualmente trabajo de carpintero
+            realizando el papel de maestro.</p>
     </div>
 
-    <div class="container" id="proyectos">
-        <h2>Proyectos</h2>
+    <div class "container" id="proyectos">
+        <h2>trabajo</h2>
         <div class="project">
-            <h3>Proyecto 1</h3>
-            <p>Descripción del primer proyecto.</p>
+            <h3></h3>
+            <p>Maestro carpintero en Carpinterias Medrano y Brico-fabri.</p>
         </div>
         <div class="project">
-            <h3>Proyecto 2</h3>
-            <p>Descripción del segundo proyecto.</p>
+            <h3></h3>
+            <p>Cosinero en el restaurante Punto de encuentro.</p>
         </div>
-        <!-- Agrega más proyectos según sea necesario -->
+        
     </div>
 
     <div class="container" id="contacto">
         <h2>Contacto</h2>
-        <p>Puedes contactarme en [tu correo electrónico] o a través de [tus redes sociales].</p>
+        <p>luis.andrade@uab.edu.bo</p>
+        <p>Celular:75922709</p>
     </div>
 
     <footer>
-        &copy; 2023 Tu Nombre
+        &copy; 2023 Luis Felipe Andrade Arce
     </footer>
 </body>
 </html>
